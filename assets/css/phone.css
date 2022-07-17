@@ -1,0 +1,294 @@
+.nav-link {
+  color: white!important;
+}
+
+.dropdown-toggle.nav-link {
+  color: white!important;
+}
+
+.nav-link.navlink {
+  color: #8b949c!important;
+  margin-left: 10px;
+}
+
+.dropdown-toggle.nav-link {
+  color: #8b949c!important;
+  margin-right: 10px;
+}
+
+.nav-link.active.navlink {
+  color: white!important;
+}
+
+.nav-link.navlink {
+  color: #8b949c;
+  padding-right: 20px!important;
+  padding-left: 5px!important;
+}
+
+@media (max-width:576px) {
+  .navbar.navbar-light.navbar-expand-lg.fixed-top.navigation-clean-button {
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+  }
+}
+
+@media (max-width: 576px) {
+  .recherche {
+    display: none;
+  }
+}
+
+#video-second {
+  position: absolute;
+}
+
+#generation {
+  z-index: 1;
+  position: absolute;
+}
+
+#div-video-second {
+  position: relative;
+  backface-visibility: hidden;
+}
+
+#container-image {
+}
+
+@media (max-width: 575px) {
+  #heading-design {
+    width: auto!important;
+    margin-top: -300px;
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 575px) {
+  #h4-design {
+    margin-top: -250px;
+    width: auto;
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  #image-design {
+    width: 150px;
+    margin-top: 10px;
+    height: 300px!important;
+  }
+}
+
+@media (max-width: 768px) {
+  #container-image {
+    margin-top: 450px!important;
+  }
+}
+
+@media (max-width: 768px) {
+  #container-image2 {
+    margin-top: 100px!important;
+  }
+}
+
+@media (max-width: 575px) {
+  #image-utile {
+    float: none;
+    width: 40%!important;
+  }
+}
+
+@media (max-width: 575px) {
+  #col-utile {
+    text-align: center!important;
+  }
+}
+
+@media (max-width: 768px) {
+  #image-personne {
+    margin-top: 0px!important;
+  }
+}
+
+@media (max-width: 575px) {
+  #col-uti {
+    text-align: center!important;
+  }
+}
+
+@media (max-width: 575px) {
+  #img {
+    float: none!important;
+  }
+}
+
+@media (max-width: 575px) {
+  #col-bout {
+    padding: 0px!important;
+  }
+}
+
+@media (max-width: 575px) {
+  #video-forth {
+    margin-top: -80px!important;
+  }
+}
+
+.float-right.head {
+  float: left!important;
+}
+
+@media (max-width: 575px) {
+  .h-bout {
+    text-align: center!important;
+  }
+}
+
+@media (max-width: 575px) {
+  #btn {
+    float: none!important;
+  }
+}
+
+@media (min-width: 993px) {
+  #image-utile {
+    width: 50%!important;
+  }
+}
+
+@media (min-width: 993px) {
+  #img {
+    width: 60%!important;
+  }
+}
+
+#secur {
+  /*position: absolute;*/
+}
+
+@media (max-width: 768px) {
+  #secur {
+    margin-bottom: -165px;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-resp {
+    text-align: center!important;
+  }
+}
+
+@media (min-width: 768px) {
+  .phone-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .phone-1 {
+  }
+}
+
+.dropdown-item.dropitem {
+  color: black!important;
+}
+
+.dropdown-item.dropitem:hover {
+  background-color: black!important;
+  color: white!important;
+}
+
+#navlink:hover, #navlinkT:hover, #navlinkO:hover, #navlinkM:hover, #navlinkJ:hover, #navlinkL:hover, #navlinkTV:hover, #navlinkS:hover, #navlinkC:hover {
+  color: rgba(222,221,224,0.87)!important;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+#video-second {
+  background-color: #e5e4e5!important;
+}
+
+.button-classe:hover {
+  background: blue!important;
+  /*color: gray!important;*/
+}
+
+@media (max-width: 576px) {
+  #telecharger {
+    margin-top: -120px;
+  }
+}
+
+.slider {
+  height: 250px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(250px*18);
+  animation: scroll 40s linear infinite;
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px*9));
+  }
+}
+
+.slide {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+.slider::before, .slider::after {
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  content: '';
+  position: absolute;
+  width: 15%;
+  z-index: 2;
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.imgslide {
+  transition: transform 1s;
+}
+
+.imgslide:hover {
+  transform: translateZ(20px);
+}
+
+.interligne {
+  line-height: 2;
+  letter-spacing: 2px;
+  word-spacing: 11px;
+}
+

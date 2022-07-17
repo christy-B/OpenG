@@ -1,0 +1,122 @@
+#navcol-1 {
+}
+
+@media (max-width: 1395px) {
+  #r-resp {
+    margin-bottom: -15px!important;
+    margin-top: -81px;
+  }
+}
+
+@media (max-width: 1300px) {
+  #r1-resp {
+    padding-top: 0px!important;
+    padding-bottom: px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #et-resp {
+    margin-bottom: 100px;
+    margin-left: 7px!important;
+    margin-top: 26px!important;
+  }
+}
+
+@media (max-width: 768px) {
+  #et-resp {
+    margin-bottom: 100px;
+    margin-left: -70px!important;
+    margin-top: 26px!important;
+  }
+}
+
+@media (min-width: 768px) {
+  #img-op {
+  }
+}
+
+@media (max-width: 740px) {
+  #img-op {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  #cont {
+    background-image: url(../../assets/img/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 76vh;
+    height: 619px!important;
+  }
+}
+
+@media (min-width: 1300px) {
+  #cont {
+    background-image: url(../../assets/img/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 101%;
+    height: 787px!important;
+  }
+}
+
+@media (max-width: 992px) {
+  #cont {
+    background-image: url(../../assets/img/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 101%;
+    height: 631px!important;
+  }
+}
+
+.opac {
+  opacity: 0.9!important;
+}
+
+.ETOILE {
+  color: #FFFA200!important;
+}
+
+@media (max-width: 1200px) {
+  .card1 {
+    margin-bottom: 0px!important;
+    margin-top: 0px!important;
+  }
+}
+
+.card2 {
+}
+
+#cont {
+  background: rgb(0,0,0,0.6)url(../../assets/img/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  background-blend-mode: darken;
+}
+
+@media (max-width: 740px) {
+  #img-op1 {
+    width: 13%!important;
+    height: 100%!important;
+  }
+}
+
+@media (min-width: 740px) {
+  #img-op1 {
+    width: 14%!important;
+    height: 79%!important;
+    display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+  #img-op {
+    width: 12%!important;
+    height: 100%!important;
+  }
+}
+

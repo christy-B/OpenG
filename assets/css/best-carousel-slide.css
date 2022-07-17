@@ -1,0 +1,212 @@
+div.jumbotron.carousel-hero {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+}
+
+div.jumbotron.hero-nature {
+  background-image: url('architect-at-the-construction.jpg');
+}
+
+div.jumbotron.hero-photography {
+  background-image: url('architects-and-worker.jpg');
+}
+
+div.jumbotron.hero-technology {
+  background-image: url('young-college-students.jpg');
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.plat {
+  border-radius: 0px;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0 #59a0e1!important;
+}
+
+.btn-primary:hover {
+  color: #000000;
+  background-color: #1e87f0;
+}
+
+.btn.btn-primary {
+  background-color: rgb(1,8,42);
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
+}
+
+* {
+  box-sizing: inherit;
+}
+
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+#market_day h1 {
+  font-size: 40px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#im img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #im img {
+    width: 100%;
+    height: 625PX;
+  }
+}
+
+#top_left a:hover {
+  color: #1e87f0;
+}
+
+#cent a:hover {
+  color: #000000;
+  background-color: #1e87f0;
+}
+
+#top_one a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+#top_seco a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#top_third a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+#top_four a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+#top_five a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+#top_six a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+#back a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.btn.btn-primary.dropdown-toggle {
+}
+
+#butt {
+  background-color: rgb(242,242,244)!important;
+  border: initial;
+  color: black;
+  text-transform: lowercase;
+}
+
+.btn.btn-primary {
+}
+
+#but {
+  background-color: rgb(226,225,226)!important;
+  color: black;
+  border: inherit;
+}
+
+@media (min-width: 576px) {
+  #pro {
+    width: 100%;
+    max-width: 100%;
+    height: 375PX;
+  }
+}
+
+#pro {
+  width: 100%;
+  max-width: 100%;
+  height: 139PX;
+}
+
+#but {
+  background-color: white!important;
+}
+
+.btn.btn-primary.bu:hover {
+  color: #ffffff;
+  background-color: #1e87f0!important;
+}
+
+.btn.btn-primary.b {
+  color: #fff;
+  background-color: rgb(1,8,42);
+  border: none;
+}
+
+#top_four {
+}
+
+.col {
+}
+
+#sli {
+  max-width: 100%;
+  height: AUTO;
+  margin-right: 50PX;
+  margin-left: 210PX;
+  padding-left: -2px;
+  padding-right: 0;
+}
+
+#sli {
+  max-width: 100%;
+  height: AUTO;
+  margin-right: 50PX;
+  margin-left: 240PX;
+}
+
+#carousel-1 {
+  max-width: 50%;
+  margin-left: -24PX;
+}
+
+@media (min-width: 360px) {
+  #carousel-1 {
+    max-width: 49%;
+    margin-left: -10PX;
+  }
+}
+

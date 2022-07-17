@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>phone</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Battambang">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Card-Carousel-1.css">
+    <link rel="stylesheet" href="assets/css/Card-Carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/phone.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body id="body" style="background: var(--white);">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top text-nowrap justify-content-center align-items-center align-content-center align-self-center m-auto navigation-clean-button" style="width: 100%;background: #000000;padding-right: 0;padding-left: 0;padding-top: 0px;padding-bottom: 0px;">
+        <div class="container-fluid"><a class="navbar-brand text-nowrap d-inline-flex" id="brand" href="#" style="width: auto;padding: 0;margin-right: 0;padding-left: 15px;margin-top: 15px;"><img src="assets/img/OPEN_blanc.png" style="width: 90px;"></a><span data-toggle="tooltip" class="d-lg-none d-xl-none"  onclick="openSearch()" style="background: transparent;color: #ffffff;font-size: 25px;margin-top:15px;" title="Search"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" class="bi bi-search" style="color: #ffffff;font-size: 20px;margin-right: 26px;">
+        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"></path>
+        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"></path>
+    </svg></span><span class="d-lg-none d-xl-none" data-toggle="tooltip" data-bss-tooltip="" data-placement="bottom" title="Wallet" style="margin-top: 17px;"><i class="icon-wallet" style="color: #ffffff;margin-right: 30px;font-size: 20px;"></i></span><span class="d-lg-none d-xl-none" data-toggle="tooltip" data-bss-tooltip="" data-placement="bottom" style="background: transparent;color: #ffffff;font-size: 20px;margin-top: 10px;" title="se connecter/s'inscrire"><i class="fas fa-user"></i></span><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="background: #cbd3dc;border-style: solid;border-color: #000000;border-radius: 7px;font-size: 16px;width: 47px;margin-right: 10px;margin-top: 7px;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse text-nowrap" id="navcol-1" style="width: 100%;margin-left: 12px;margin-bottom: 12px;">
+                <ul class="navbar-nav text-nowrap align-self-center m-auto justify-content-lg-center align-items-lg-center align-content-lg-center justify-content-xl-center align-items-xl-center align-content-xl-center" style="width: 100%;font-size: 24px;margin-left: 0px;margin-bottom: 0px;">
+                    <li class="nav-item"><a class="nav-link navlink alink" id="navlink" href="index.html" style="width: auto;margin: 0px;padding: 0px;padding-right: 0px;padding-left: 0px;font-size: 18px;margin-top: 20px;">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link active navlink" id="navlinkT" href="phone.html" style="padding: 0px;padding-left: 0px;padding-right: 0px;width: auto;margin: 0px;font-size: 18px;margin-top: 20px;">Téléphone</a></li>
+                    <li class="nav-item"><a class="nav-link navlink" id="navlinkO" href="Ordinateur.html" style="padding: 0px;padding-left: 0px;padding-right: 0;width: auto;margin: 0px;font-size: 18px;margin-top: 20px;">Ordinateur</a></li>
+                    <li class="nav-item dropdown" style="color: #cbd3dc;padding-left: 0px;width: auto;margin-right: 20px;margin-left: 4px;"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" id="navlinkM" href="#" style="color: #cbd3dc;padding: 0px;padding-right: 0;width: auto;margin-right: 0px;font-size: 18px;margin-top: 20px;">Moois</a>
+                        <div class="dropdown-menu text-capitalize border-light" style="width: auto;height: auto;background: #dedde0;border-radius: 4px;border-style: none;color: #000000;margin-left: 0px;margin-top: 0px;"><a class="dropdown-item dropitem" href="#" style="width: 100%;color: #000000;font-size: 18px;border-style: none;">OpenMarket</a><a class="dropdown-item dropitem" href="car.html" style="width: 100%;font-size: 18px;">OpenCar</a><a class="dropdown-item dropitem" href="food.html" style="width: 100%;font-size: 18px;color: var(--red);">OpenFood</a></div>
+                    </li>
+                    <li class="nav-item dropdown" style="padding: 0px;padding-left: 0px;width: auto;margin-right: 20px;margin-left: 4px;"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" id="navlinkJ" href="#" style="padding: 0px;padding-right: 0;width: auto;margin-right: 0px;font-size: 18px;margin-top: 20px;">Jeux</a>
+                        <div class="dropdown-menu" style="width: auto;height: auto;margin-top: 0px;background: #dedde0;border-style: none;border-radius: 4px;"><a class="dropdown-item dropitem" href="#" style="font-size: 18px;">Tap tap demons</a><a class="dropdown-item dropitem" href="#" style="font-size: 18px;">Omaquis</a><a class="dropdown-item dropitem" href="#" style="font-size: 18px;">Cours cours</a><a class="dropdown-item dropitem" href="#" style="font-size: 18px;">Play IT</a><a class="dropdown-item dropitem" href="#" style="font-size: 18px;">Let them go</a><a class="dropdown-item dropitem" href="#" style="font-size: 18px;">Champions</a><a class="dropdown-item dropitem" href="#" style="font-size: 18px;">Ruwa</a></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link navlink" id="navlinkL" href="#" style="padding: 0px;padding-left: 0px;padding-right: 0px;width: auto;margin-left: 0px;font-size: 18px;margin-top: 20px;">Learn</a></li>
+                    <li class="nav-item"><a class="nav-link navlink" id="navlinkTV" href="#" style="padding: 0px;padding-left: 0px;width: auto;margin-left: 0px;font-size: 18px;margin-top: 20px;">TV</a></li>
+                    <li class="nav-item"><a class="nav-link navlink" id="navlinkS" href="#" style="padding: 0px;padding-left: 0px;padding-right: 0;width: auto;margin-left: 0px;font-size: 18px;margin-top: 20px;">SAV</a></li>
+                    <li class="nav-item d-sm-none d-md-none d-lg-block d-xl-block recherche" data-toggle="tooltip" data-bss-tooltip="" data-placement="bottom" title="Search"><a class="nav-link navlink" onclick="openSearch()"href="#" style="margin-top:20px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" class="bi bi-search" style="color: #8b949c;font-size: 17px;">
+        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"></path>
+        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"></path>
+    </svg></a>
+</li>
+                    <li class="nav-item d-sm-none d-md-none d-lg-block d-xl-block recherche" data-toggle="tooltip" data-bss-tooltip="" data-placement="bottom" title="Wallet"><a class="nav-link navlink" href="#" style="padding: 0px;padding-right: 0px;padding-left: 0px;width: auto;margin-left: 0px;margin-top: 20px;"><i class="icon-wallet" style="color: #8b949c;margin-right: 0px;font-size: 17px;"></i></a></li>
+                    <li class="nav-item d-sm-none d-md-none d-lg-block d-xl-block recherche"><a class="nav-link text-nowrap navlink" id="navlinkC" href="#" style="margin-left: 0px;padding: 0px;padding-left: 0px;padding-right: 0px;width: auto;font-size: 18px;margin-top: 20px;">Se connecter</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style="width: 100%;height: auto;margin-bottom: 77px;margin-top: 0px;background: #e5e4e5;padding-top: 35px;">
+        <h1 style="margin-top: 50px;padding-left: 15px;font-family: Poppins, sans-serif;padding-top: 20px;color: #000000;font-size: 50px;line-height: 60px;letter-spacing: 5px;"><strong>Open-G</strong></h1>
+        <div class="text-center video-container" style="margin-top: 0px;width: 100%;padding-top: 0;height: auto;padding-bottom: 0px;margin-bottom: 20px;"><video class="imgslide" autoplay="" muted="" style="width: 60%;margin-top: 0px;height: auto;" loop="">
+                <source src="OPEN_first.mp4" type="video/mp4">
+            </video></div>
+    </div>
+    <div id="div-video-second" style="max-height: auto;height: auto;width: 100%;margin-bottom: 0px;">
+        <h1 id="generation" style="margin-top: 50px;padding-left: 15px;font-size: 50px;text-align: center;margin-right: 0;height: auto;width: 100%;font-family: Poppins, sans-serif;color: #000000;letter-spacing: 5px;"><strong>Open-Generation</strong><span class="text-center d-block interligne" style="font-size: 20px;font-family: Poppins, sans-serif;color: #000000;line-height: 40px;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<br><br></span><span class="d-block" style="margin: 10px;margin-bottom: 0px;"><button class="btn btn-primary btn-sm button-classe" type="button" style="border-radius: 5px;margin-top: 0;margin-right: 0;margin-bottom: 0;margin-left: 0;color: #f3f4f5;background: #000000;border-style: none;padding: 10px;padding-top: 2px;padding-right: 10px;padding-bottom: 2px;font-size: 12px;width: 99px;height: 45px;font-family: Poppins, sans-serif;letter-spacing: 2px;"><strong>Acheter</strong></button><button class="btn btn-primary btn-sm button-classe" type="button" style="border-radius: 5px;margin-top: 0;margin-right: 0;margin-bottom: 0;margin-left: 20px;color: #f3f4f5;background: #000000;border-style: none;padding: 10px;padding-top: 2px;padding-right: 10px;padding-bottom: 2px;font-size: 12px;width: 164px;height: 45px;font-family: Poppins, sans-serif;letter-spacing: 2px;"><strong>Précommander</strong></button></span></h1><video id="video-second" style="width: 100%;height: 700px;margin-top: 200px;padding-top: 0px;" preload="none" autoplay="" muted="" loop="">
+            <source src="OPEN_second.mp4" type="video/webm">
+        </video>
+    </div>
+    <div class="container-fluid" id="container-image" style="margin-top: 842px;padding-top: 15px;background: #ffffff;width: 100%;margin-left: 0px;margin-right: 0px;padding-bottom: 15px;height: auto;">
+        <div class="row align-items-center">
+            <div class="col-auto col-sm-4 col-md-4 col-lg-5 col-xl-5 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0" style="padding-right: 0px;"><img class="float-right" id="image-design" src="assets/img/phone1.png" style="height: 420px;margin-right: 0px;"></div>
+            <div class="col-sm-8 col-md-8 col-lg-6 col-xl-6 offset-0" style="padding-left: 40px;">
+                <h1 class="text-left d-block float-left" id="heading-design" style="width: 100%;font-family: Poppins, sans-serif;color: #000000;font-size: 50px;margin-bottom: 47px;letter-spacing: 5px;"><strong>Minimaliste, épuré, léger.</strong></h1>
+                <h4 class="float-left interligne" id="h4-design" style="width: auto;font-family: Poppins, sans-serif;font-size: 20px;color: #000000;">Lorem ipsum dolor sit amet,&nbsp;consectetur adipiscing elit.<br>Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<br><br></h4>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center float-right" id="container-image2" style="margin-top: 50px;padding-top: 0px;padding-left: 50px;margin-right: 0;margin-left: 0;margin-bottom: 0px;width: 100%;height: auto;">
+        <div class="row no-gutters text-left justify-content-center align-items-center">
+            <div class="col-auto col-sm-6 col-md-6 col-lg-4 col-xl-4 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0 text-left col-resp" id="col-uti" style="padding-right: 0px;text-align: center;padding-left: 0px;">
+                <h1 class="text-center text-sm-left text-md-left text-lg-left text-xl-left d-block float-none head" style="width: 95%;margin-bottom: 10px;padding-right: 70px;font-family: Poppins, sans-serif;margin-left: 16px;font-size: 50px;color: #000000;letter-spacing: 5px;"><strong>1 App pour "TOUS" vos besoins</strong></h1>
+                <h6 class="text-center text-sm-left text-md-left text-lg-left text-xl-left float-right head interligne" style="width: 95%;margin-bottom: 0px;font-family: Poppins, sans-serif;margin-left: 15px;font-size: 20px;color: #000000;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<br><br></h6>
+                <h6 class="text-center text-sm-left text-md-left text-lg-left text-xl-left d-flex float-right head" style="width: 95%;margin-bottom: 29px;font-family: Montserrat, sans-serif;margin-left: 15px;"><button class="btn btn-primary button-classe" type="button" style="border-radius: 5px;margin-top: 20px;margin-right: 3%;padding-top: 2px;padding-right: 8px;padding-bottom: 2px;padding-left: 8px;margin-left: 0;margin-bottom: 0;color: #f3f4f5;background: #000000;border-style: none;font-size: 12px;width: 99px;height: 45px;font-family: Poppins, sans-serif;letter-spacing: 2px;"><strong>Acheter</strong></button><button class="btn btn-primary button-classe" type="button" style="border-radius: 5px;margin-top: 20px;margin-left: 0;padding-top: 2px;padding-right: 8px;padding-bottom: 2px;padding-left: 8px;margin-right: 0;margin-bottom: 0;background: #000000;border-style: none;border-color: #f3f4f5;font-size: 12px;width: 169px;height: 45px;font-family: Poppins, sans-serif;letter-spacing: 2px;"><strong>Précommander</strong></button><br><br></h6><img src="assets/img/phone/APPLI2.png" style="width: 100%;">
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 offset-0 text-center col-resp" id="col-utile-3" style="height: auto;padding-right: 0;padding-left: 0px;"><img class="img-fluid" src="assets/img/Sans_titrephone-removebg-preview.png" style="width: 65%;height: auto;font-size: 14px;"></div>
+        </div>
+    </div>
+    <div class="container-fluid text-center float-left" id="container-image3" style="margin-top: 24px;padding-top: 0px;padding-left: 50px;margin-right: 0;margin-left: 0;padding-right: 0px;width: 100%;height: auto;">
+        <div class="row no-gutters text-center justify-content-end align-items-center">
+            <div class="col-auto col-sm-6 col-md-6 col-lg-5 col-xl-5 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0 text-center" style="padding-right: 0px;padding-top: 30px;">
+                <h1 class="text-left d-block float-left" style="width: 100%;font-family: Poppins, sans-serif;text-align: left;font-size: 50px;color: #000000;margin-bottom: 33px;letter-spacing: 5px;"><strong>M</strong><img src="assets/img/New%20logo%20open%2002.png" style="width: 65px;margin-top: -9px;"><img src="assets/img/New%20logo%20open%2002.png" style="width: 65px;margin-top: -9px;color: #000000;"><strong>IS</strong></h1>
+                <h6 class="text-left float-left interligne" style="width: 100%;font-size: 25px;margin-top: 10px;padding-bottom: 0px;padding-left: 7px;font-family: Poppins, sans-serif;color: #000000;margin-bottom: 24px;"><strong>Acheter, Vendez, Mangez, Bougez,Tout avec Open-G</strong></h6>
+                <h6 class="text-left float-left interligne" style="width: 100%;margin-top: 15px;margin-bottom: 61px;font-family: Poppins, sans-serif;font-size: 20px;color: #000000;">Lorem ipsum dolor sit amet,&nbsp;<br>consectetur adipiscing elit.<br></h6>
+                <div class="text-left" style="width: 100%;height: auto;margin-bottom: 15px;"><button class="btn btn-primary button-classe" type="button" style="border-radius: 5px;margin-top: 0;margin-right: 15px;padding-top: 2px;padding-right: 10px;padding-bottom: 2px;padding-left: 10px;margin-left: 0;margin-bottom: 0;color: #f3f4f5;background: #000000;border-style: none;font-size: 12px;width: 99px;height: 45px;font-family: Poppins, sans-serif;letter-spacing: 2px;"><strong>Acheter</strong></button><button class="btn btn-primary button-classe" type="button" style="border-radius: 5px;margin-top: 0;margin-left: 0;padding-top: 2px;padding-right: 10px;padding-bottom: 2px;padding-left: 10px;margin-right: 0;margin-bottom: 0;background: #000000;border-style: none;border-color: #f3f4f5;font-size: 12px;width: 170px;height: 45px;font-family: Poppins, sans-serif;letter-spacing: 2px;"><strong>Précommander</strong></button></div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-5 col-xl-5 offset-0 text-left col-resp" id="col-utile" style="height: auto;"><img class="img-fluid" src="assets/img/phone/personne%20utilisant%20un%20smartphoneh.pg.png" style="width: 400px;"></div>
+        </div>
+    </div>
+    <div class="container-fluid text-left float-right" id="container-image3" style="margin-top: 30px;padding-top: 0px;padding-left: 50px;margin-right: 0;margin-left: 0;margin-bottom: 60px;width: 100%;height: auto;">
+        <div class="row no-gutters justify-content-center align-items-center">
+            <div class="col-auto col-sm-6 col-md-6 col-lg-3 col-xl-3 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0 text-center" style="padding-right: 0px;padding-top: 30px;">
+                <h1 class="text-left d-block float-left" style="width: 100%;font-family: Poppins, sans-serif;font-size: 50px;color: #000000;margin-bottom: 37px;letter-spacing: 5px;"><img src="assets/img/New%20logo%20open%2002.png" style="width: 65px;margin-top: -9px;"><strong>pen Assistant</strong></h1>
+                <h6 class="text-left float-left interligne" style="width: 100%;margin-top: 15px;margin-bottom: 43px;font-family: Poppins, sans-serif;font-size: 20px;color: #000000;">Lorem ipsum dolor sit amet,&nbsp;<br>consectetur adipiscing elit.<br></h6>
+                <div class="text-left" style="width: 100%;height: auto;margin-bottom: 15px;"><button class="btn btn-primary button-classe" type="button" style="border-radius: 5px;margin-top: 20px;margin-right: 5%;padding-top: 2px;padding-right: 10px;padding-bottom: 2px;padding-left: 10px;margin-left: 0;margin-bottom: 0;color: #f3f4f5;background: #000000;border-style: none;font-size: 12px;width: 99px;height: 45px;font-family: Poppins, sans-serif;letter-spacing: 2px;"><strong>Acheter</strong></button><button class="btn btn-primary button-classe" type="button" style="border-radius: 5px;margin-top: 20px;margin-left: 0;padding-top: 2px;padding-right: 10px;padding-bottom: 2px;padding-left: 10px;margin-right: 0;margin-bottom: 0;color: #f3f4f5;background: #000000;border-style: none;font-size: 12px;width: 170px;height: 45px;font-family: Poppins, sans-serif;letter-spacing: 2px;"><strong>Précommander</strong></button></div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-5 offset-0 text-left col-resp" id="col-utile-1" style="height: auto;"><img src="assets/img/phone/FEMME.png" style="width: 100%;"></div>
+        </div>
+    </div>
+    <div class="container-fluid" style="width: 100%;height: auto;margin-right: 0px;margin-left: 0px;padding-left: 0px;padding-right: 0px;margin-bottom: 13px;">
+        <div class="row no-gutters" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+            <div class="col-md-12 text-center" style="width: 100%;background: #e5e4e5;height: auto;">
+                <div class="d-block" id="secur" style="width: 100%;"><span class="text-capitalize text-center d-block" style="font-family: Poppins, sans-serif;width: 100%;font-size: 50px;padding-left: 0px;padding-right: 100px;margin-top: 41px;color: #000000;margin-bottom: 13px;letter-spacing: 5px;">&nbsp;<img class="img-fluid" src="assets/img/phone/New%20logo%20open%202.png" style="width: 44px;margin-top: -8px;"><strong>&nbsp;sécurisé</strong></span><span class="text-center d-block interligne" style="font-family: Montserrat, sans-serif;font-size: 20px;padding: 0px;margin-top: -9px;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<br><br></span></div><video style="width: 100%;height: 550px;margin-top: 0px;padding-top: 0px;" preload="none" autoplay="" loop="" muted="">
+                    <source src="OPEN_third.mp4" type="video/webm">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-left float-right" id="container-image2" style="margin-top: 60px;padding-top: 0px;padding-left: 50px;margin-right: 0;margin-left: 0;margin-bottom: 76px;width: 100%;height: auto;">
+        <div class="row justify-content-center align-items-center" style="margin-right: 0px;margin-left: 0px;">
+            <div class="col-auto col-sm-6 col-md-6 col-lg-4 col-xl-4 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0 text-left" id="col-uti" style="padding-right: 0px;text-align: center;padding-left: 0px;">
+                <h1 class="text-left d-block float-none head" style="width: 100%;margin-bottom: 10px;padding-right: 0px;font-family: Poppins, sans-serif;margin-left: 0;padding-left: 0px;color: #000000;font-size: 50px;letter-spacing: 5px;"><img src="assets/img/New%20logo%20open%2002.png" style="width: 65px;margin-top: -9px;"><strong>pen Pay</strong></h1>
+                <h6 class="text-left float-right head interligne" style="width: 100%;margin-bottom: 15px;font-family: Poppins, sans-serif;margin-left: 0;font-size: 20px;padding-left: 0px;color: #000000;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<br><br></h6><img class="img-fluid" src="assets/img/phone/payement.png" style="margin-left: -9px;">
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 offset-0 text-center col-resp" id="col-utile-2" style="height: auto;padding-right: 0;padding-left: 0px;"><img class="img-fluid float-none" src="assets/img/Sans_titrepay-removebg-preview.png" style="width: 350px;margin-left: 0px;"></div>
+        </div>
+    </div>
+    <div class="text-center d-block col-resp" style="max-height: auto;margin-top: 0px;width: 100%;height: auto;padding-left: 50px;">
+        <h1 id="generation-3" style="margin-top: 53px;padding-left: 15px;font-size: 50px;text-align: center;margin-right: 0;height: auto;width: 100%;font-family: Montserrat, sans-serif;margin-bottom: 22px;color: #000000;letter-spacing: 5px;"><img src="assets/img/New%20logo%20open%2002.png" style="width: 65px;margin-top: -9px;"><strong>pen Game Studio</strong><span class="text-center d-block interligne" style="font-size: 20px;margin-top: 17px;font-family: Poppins, sans-serif;padding-top: 0px;margin-bottom: 0px ;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<br><br></span><span class="text-center d-block"></span></h1>
+        <div class="text-center text-sm-center text-md-center text-lg-center text-xl-center" style="width: 100%;margin-top: -19px;margin-bottom: 0px;"><button class="btn btn-primary text-center" type="button" style="background: #000000;width: auto;border-width: 0px;border-radius: 5px;margin: 0px;margin-top: 20px;margin-right: 20px;height: auto;padding: 10px;"><img src="assets/img/phone/ps4.png" style="width: 25px;height: 25px;font-size: 16px;"><span class="text-left d-flex float-right" style="background: transparent;width: 69.2px;font-size: 8px;margin-top: 0px;margin-left: 9px;font-family: Poppins, sans-serif;letter-spacing: 0px;">Télécharger sur PlayStation Store</span></button><button class="btn btn-primary text-left" type="button" style="background: #000000;width: auto;border-width: 0px;border-radius: 5px;margin: 0px;margin-top: 20px;margin-right: 20px;height: auto;text-align: center;padding: 10px;"><span class="text-left d-flex float-right" style="background: transparent;width: 63.2px;font-size: 8px;margin-top: 0px;margin-left: 9px;font-family: Poppins, sans-serif;">Télécharger sur App Store</span><img src="assets/img/phone/apple.png" style="width: 25px;height: 25px;font-size: 16px;"></button><button class="btn btn-primary text-left" type="button" style="background: #000000;width: auto;border-width: 0px;border-radius: 5px;margin: 0px;margin-right: 20px;margin-top: 20px;height: auto;padding: 10px;"><span class="text-left d-flex float-right" style="background: transparent;width: 63.2px;font-size: 8px;margin-top: 0px;margin-left: 9px;font-family: Poppins, sans-serif;">Télécharger sur Play Store</span><img src="assets/img/phone/android-removebg-preview.png" style="width: 25px;height: 25px;font-size: 16px;"></button><button class="btn btn-primary text-left" type="button" style="background: #000000;width: auto;border-width: 0px;border-radius: 5px;margin: 0px;margin-right: 20px;margin-top: 20px;height: auto;padding: 10px;"><span class="text-left d-flex float-right" style="background: transparent;width: 65.2px;font-size: 8px;margin-top: 0px;margin-left: 9px;font-family: Poppins, sans-serif;">Télécharger sur&nbsp;<br>Windows Store<br></span><img src="assets/img/phone/Microsoft_Store.png" style="width: 25px;font-size: 16px;height: 25px;"></button></div><span class="text-center d-block" style="margin-bottom: 55px;margin-top: 40px;"><button class="btn btn-outline-primary btn-sm text-center d-block" type="button" style="margin: auto;margin-top: 60px;border-style: none;font-family: Poppins, sans-serif;font-size: 16px;">voir plus</button></span><video id="telecharger" width="100%" height="315" preload="none" autoplay="" loop="" muted="" style="width: 100%;height: 500px;">
+            <source src="game.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="container-fluid text-left float-right" id="container-image-2" style="margin-top: 30px;padding-top: 50px;padding-left: 50px;margin-right: 0;margin-left: 0;width: 100%;height: auto;">
+        <div class="row justify-content-center align-items-center" style="margin-right: 0;margin-left: 0;">
+            <div class="col-auto col-sm-6 col-md-6 col-lg-4 col-xl-4 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0 text-left" id="col-uti-1" style="padding-right: 0px;padding-left: 0px;">
+                <h1 class="text-left d-block float-none head" style="width: 100%;margin-bottom: 5px;padding-right: 0px;font-family: Poppins, sans-serif;margin-left: 0;color: #000000;font-size: 50px;letter-spacing: 5px;"><strong>Fun et ludique : vos accessoires</strong><br></h1>
+                <h6 class="text-left float-right head interligne" style="width: 100%;margin-bottom: 15px;font-family: Poppins, sans-serif;margin-left: 0;font-size: 20px;color: #000000;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<br><button class="btn btn-primary text-center button-classe" id="btn" type="button" style="border-radius: 5px;margin-top: 62px;margin-left: 0;padding: 10px;padding-top: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;margin-right: 0;margin-bottom: 0;color: #f3f4f5;background: #000000;border-style: none;font-size: 12px;height: 45px;width: 169px;text-align: center;letter-spacing: 2px;"><strong>Aller à la boutique</strong></button><br></h6>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 offset-0 text-left" id="col-utile-2" style="height: auto;padding-left: 0;"><img class="img-fluid" src="assets/img/phone/casque.png"></div>
+        </div>
+    </div>
+    <div class="container-fluid text-left float-right" id="container-image-1" style="margin-top: 50px;padding-top: 0px;padding-left: 50px;margin-right: 0;margin-left: 0;margin-bottom: 57px;width: 100%;height: auto;background: #e5e4e5;">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-auto col-sm-6 col-md-6 col-lg-4 col-xl-4 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0 text-right" id="col-bout" style="padding-right: 0px;padding-top: 0px;padding-left: 0;">
+                <h6 class="text-left float-left h-bout" style="width: 100%;margin-top: 0px;margin-bottom: 54px;padding-right: 0px;font-family: Poppins, sans-serif;font-size: 50px;color: #000000;letter-spacing: 5px;"><strong>Vient en Rouge Courage, Noir Africain et Violet&nbsp; Royal</strong></h6>
+                <h6 class="text-left float-left h-bout interligne" style="width: 100%;margin-top: 0px;margin-bottom: 60px;padding-right: 0px;font-family: Poppins, sans-serif;font-size: 20px;color: #000000;">Lorem ipsum dolor sit amet,&nbsp;<br>consectetur adipiscing elit.<br></h6>
+                <div class="text-left float-right h-bout" style="width: 100%;height: auto;margin-bottom: 0px;padding-right: 0px;"><button class="btn btn-primary text-center button-classe" id="btn-1" type="button" style="border-radius: 5px;margin-top: 0;margin-left: 0;padding: 10px;padding-top: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;margin-right: 0;margin-bottom: 0;color: #f3f4f5;background: #000000;border-style: none;font-size: 12px;height: 45px;width: 169px;text-align: center;letter-spacing: 2px;"><strong>Aller à la boutique</strong></button></div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 offset-0 text-left" id="col-utile-1" style="height: auto;"><video class="float-left" id="video-forth" style="width: 100%;height: 400px;padding-top: 0px;" preload="none" autoplay="" loop="" muted="">
+                    <source src="OPEN_forth.mp4" type="video/webm">
+                </video></div>
+        </div>
+    </div>
+    <div class="text-center d-block col-resp" style="max-height: auto;margin-top: 50px;width: 100%;margin-bottom: 50px;height: auto;">
+        <h1 id="generation-3" style="margin-top: 53px;padding-left: 15px;font-size: 50px;text-align: center;margin-right: 0;height: auto;width: 100%;font-family: Poppins, sans-serif;color: #000000;letter-spacing: 5px;"><strong>Energie selon votre besoin</strong><span class="text-center d-block" style="margin-bottom: 14px;"></span><span class="d-block" style="font-family: Poppins, sans-serif;margin-bottom: 32px;"><strong>2600mAH</strong></span><img class="img-fluid" src="assets/img/phone/ENERGIE.png" style="width: 441px;height: 200.8px;margin-top: 28px;margin-bottom: 13px;"></h1>
+        <h6 class="text-center float-right head interligne" style="width: 100%;margin-bottom: 0px;font-family: Poppins, sans-serif;margin-left: 0;font-size: 20px;color: #000000;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<br><br></h6>
+    </div>
+    <div class="container-fluid text-left d-none float-right d-md-block d-lg-block d-xl-block" id="container-image-5" style="margin-top: 24px;padding-top: 0px;padding-left: 50px;margin-right: 0;margin-left: 0;height: auto;margin-bottom: 12px;width: 100%;">
+        <div class="row no-gutters" style="margin-right: 0;margin-left: 0;">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0 text-center" id="col-uti-4" style="padding-right: 0px;">
+                <div class="simple-slider" style="width: auto;height: auto;">
+                    <div class="swiper-container" style="width: auto;height: auto;">
+                        <div class="swiper-wrapper" style="width: auto;height: auto;">
+                            <div class="justify-content-center align-items-center align-content-center align-self-center swiper-slide" style="height: auto;"><img class="img-fluid" src="assets/img/phone/ARN-removebg-preview.png" style="transform: rotate(0deg);width: 250px;margin-bottom: 50px;"></div>
+                            <div class="swiper-slide" style="height: 400px;"><img class="img-fluid" src="assets/img/phone/FACEV-removebg-preview.png" style="width: 250px;margin-bottom: 50px;"></div>
+                            <div class="swiper-slide" style="height: 400px;"><img class="img-fluid" src="assets/img/phone/ARR-removebg-preview.png" style="width: 250px;margin-bottom: 50px;"></div>
+                        </div>
+                        <div class="swiper-pagination" style="padding-top: 0;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 offset-0 text-left" id="col-utile-5" style="height: auto;padding-left: 0;">
+                <h1 class="text-left" style="font-size: 50px;font-family: Poppins, sans-serif;margin-bottom: 48px;letter-spacing: 5px;">Caractéristiques</h1>
+                <div class="table-responsive" style="width: auto;">
+                    <table class="table">
+                        <tbody style="width: auto;">
+                            <tr style="width: auto;">
+                                <td class="text-left" style="width: 50%;font-size: 20px;font-family: Poppins, sans-serif;">ROM</td>
+                                <td class="text-left" style="width: 50%;font-size: 20px;font-family: Poppins, sans-serif;">32Gb</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left" style="font-size: 20px;font-family: Poppins, sans-serif;">RAM</td>
+                                <td class="text-left" style="font-size: 20px;font-family: Poppins, sans-serif;">2Gb</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left" style="font-size: 20px;font-family: Poppins, sans-serif;">Android</td>
+                                <td class="text-left" style="font-size: 20px;font-family: Poppins, sans-serif;">Android 8.0</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left" style="font-size: 20px;">batterie</td>
+                                <td class="text-left" style="font-size: 20px;font-family: Poppins, sans-serif;">2600mh</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left" style="font-size: 20px;font-family: Poppins, sans-serif;">Ecran</td>
+                                <td class="text-left" style="font-size: 20px;">5' ratio</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left" style="font-size: 20px;font-family: Poppins, sans-serif;">Carte SD</td>
+                                <td class="text-left" style="font-size: 20px;font-family: Poppins, sans-serif;">(1) 32 Gb<br></td>
+                            </tr>
+                            <tr>
+                                <td class="text-left" style="font-size: 20px;font-family: Poppins, sans-serif;">Friguen</td>
+                                <td class="text-left" style="font-size: 20px;font-family: Poppins, sans-serif;">1600mhz</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left" style="font-size: 20px;font-family: Poppins, sans-serif;">Couleur</td>
+                                <td class="text-left" style="font-size: 20px;font-family: Poppins, sans-serif;">Noir Africain, Rouge Courage, Violet Royal<br></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-left float-right d-sm-block d-md-none d-lg-none d-xl-none" id="container-image-3" style="margin-top: 50px;padding-top: 0px;padding-left: 50px;margin-right: 0;margin-left: 0;">
+        <div class="row justify-content-center align-items-center" style="margin-right: 0;margin-left: 0;">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0 text-center order-1" id="col-uti-2" style="padding-right: 0px;">
+                <div class="simple-slider" style="width: auto;height: auto;">
+                    <div class="swiper-container" style="width: auto;height: auto;">
+                        <div class="swiper-wrapper" style="width: auto;height: auto;">
+                            <div class="justify-content-center align-items-center align-content-center align-self-center swiper-slide" style="height: auto;"><img src="assets/img/phone/ARN-removebg-preview.png" style="transform: rotate(90deg);"></div>
+                            <div class="swiper-slide"><img src="assets/img/phone/FACEV-removebg-preview.png" style="transform: rotate(90deg);"></div>
+                            <div class="swiper-slide"><img src="assets/img/phone/ARR-removebg-preview.png" style="transform: rotate(90deg);"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 offset-0 text-left" id="col-utile-4" style="height: auto;padding-left: 0;">
+                <div class="card" style="font-family: Montserrat, sans-serif;text-align: left;background: rgba(255,255,255,0);">
+                    <h4 class="text-nowrap text-truncate" style="margin-left: 0px;font-size: 40px;padding-top: 0px;">Caractéristiques</h4>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 50%;">Rom</td>
+                                        <td style="width: 50%;">32Gb</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 50%;">Ram</td>
+                                        <td style="width: 50%;">2Gb</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 50%;">Android</td>
+                                        <td style="width: 50%;">Android 8.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 50%;">batterie</td>
+                                        <td style="width: 50%;">2600 mh</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 50%;">Ecran</td>
+                                        <td style="width: 50%;">5' ratio</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 50%;">Carte SD&nbsp;</td>
+                                        <td style="width: 50%;">&nbsp;(1) 32 Gb</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 50%;">Friguen</td>
+                                        <td style="width: 50%;">1600 mhz</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 50%;">couleur</td>
+                                        <td style="width: 50%;">Noir Africain, Rouge Courage, Violet Royal</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-left float-right" id="container-image-4" style="margin-top: 17px;padding-top: 0px;padding-left: 50px;margin-right: 0;margin-left: 0;margin-bottom: 0px;width: 100%;height: auto;">
+        <div class="row justify-content-center align-items-center" style="margin-right: 0;margin-left: 0;">
+            <div class="col-auto col-sm-12 col-md-12 col-lg-8 col-xl-7 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0 text-center" id="col-uti-3" style="padding-right: 0px;margin-bottom: 45px;">
+                <h1 class="text-center d-block float-none head" style="width: 100%;margin-bottom: 10px;padding-right: 70px;font-family: Poppins, sans-serif;margin-left: 0;color: #000000;font-size: 50px;letter-spacing: 5px;"><strong>Nos Distributeurs</strong></h1><iframe allowfullscreen="" frameborder="0" src="https://cdn.bootstrapstudio.io/placeholders/map.html" width="100%" height="400"></iframe>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-block float-left" id="container-image-4" style="margin-top: 0px;padding-top: 0px;padding-left: 50px;margin-right: 0;margin-left: 0;width: 100%;height: auto;margin-bottom: 0px;">
+        <div class="row justify-content-center align-items-center" style="margin-right: 0px;margin-left: 0px;">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-9 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0" id="col-uti-5" style="padding-right: 0px;padding-left: 0;margin-top: 0px;margin-right: 0px;width: 100%;max-width: 100%;">
+                <h1 class="text-center d-block float-none head" style="width: 100%;margin-bottom: 26px;padding-right: 70px;font-family: Montserrat, sans-serif;margin-left: 0;letter-spacing: 5px;line-height: 50px;"><strong>Nos Partenaires, Artistes et&nbsp;Comédiens</strong></h1>
+                <div class="text-center" style="width: auto;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;margin-left: 0px;"></div>
+            </div>
+        </div>
+    </div>
+    <section class="text-center photo-gallery">
+        <div class="container text-center">
+            <div class="row photos" style="margin-bottom: 15px;">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center m-auto item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;"><img class="img-fluid imgslide" src="assets/img/phone/LOGO%202.png" style="margin-top: 30px;margin-right: 25px;margin-bottom: 15px;"></div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center m-auto item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;"><img class="img-fluid" src="assets/img/phone/LOGO%203.png" style="margin-top: 30px;margin-right: 25px;margin-bottom: 15px;"></div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center m-auto item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;"><img class="img-fluid" src="assets/img/phone/LOGO%204.png" style="margin-top: 30px;margin-right: 25px;margin-bottom: 15px;"></div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center m-auto item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;"><img class="img-fluid" src="assets/img/phone/LOGO%206.png" style="margin-top: 30px;margin-right: 25px;margin-bottom: 15px;"></div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center m-auto item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;"><img class="img-fluid" src="assets/img/phone/LOGO%205.png" style="margin-top: 30px;margin-right: 25px;margin-bottom: 15px;"></div>
+            </div>
+            <div class="row no-gutters text-center photos">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;">
+                    <div class="card" style="width: 173px;height: auto;background: rgba(0,0,0,0.01);color: rgb(49, 52, 55);">
+                        <div class="card-body text-center" style="width: 173px;height: auto;padding: 0px;padding-top: 0px;"><img class="img-fluid" src="assets/img/artiste/meiway.png" style="width: 173px;height: 134px;margin-top: 0px;margin-right: 0px;">
+                            <h4 class="card-title" style="font-size: 18px;text-align: center;margin-top: 6px;letter-spacing: 2px;">Meiway</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;">
+                    <div class="card" style="width: 173px;height: auto;background: rgba(0,0,0,0.01);color: rgb(49, 52, 55);">
+                        <div class="card-body text-center" style="width: 173px;height: auto;padding: 0px;padding-top: 0px;"><img class="img-fluid" src="assets/img/artiste/brou.png" style="width: 165px;height: 134px;margin-top: 0px;margin-right: 0px;">
+                            <h4 class="card-title" style="font-size: 18px;text-align: center;margin-top: 6px;letter-spacing: 2px;">Brou</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;">
+                    <div class="card" style="width: 173px;height: auto;background: rgba(0,0,0,0.01);color: rgb(49, 52, 55);">
+                        <div class="card-body text-center" style="width: 173px;height: auto;padding: 0px;padding-top: 0px;"><img class="img-fluid" src="assets/img/artiste/mike.png" style="width: 165px;height: 134px;margin-top: 0x;margin-right: 0px;">
+                            <h4 class="card-title" style="font-size: 18px;text-align: center;margin-top: 6px;letter-spacing: 2px;">Mike</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;">
+                    <div class="card" style="width: 173px;height: auto;background: rgba(0,0,0,0.01);color: rgb(49, 52, 55);">
+                        <div class="card-body text-center" style="width: 173px;height: auto;padding: 0px;padding-top: 0px;"><img class="img-fluid" src="assets/img/artiste/beynaud.png" style="width: 173px;height: 134px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;margin-left: 0px;">
+                            <h4 class="card-title" style="font-size: 18px;margin-top: 6px;letter-spacing: 2px;">Beynaud</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;">
+                    <div class="card" style="width: 173px;height: auto;background: rgba(0,0,0,0.01);color: rgb(49, 52, 55);">
+                        <div class="card-body text-center" style="width: 173px;height: auto;padding: 0px;padding-top: 0px;"><img class="img-fluid" src="assets/img/artiste/pantcho.png" style="width: 173px;height: 134px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;margin-left: 0px;">
+                            <h4 class="card-title" style="font-size: 18px;margin-top: 6px;letter-spacing: 2px;">Pantcho</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;">
+                    <div class="card" style="width: 173px;height: auto;background: rgba(0,0,0,0.01);color: rgb(49, 52, 55);">
+                        <div class="card-body text-center" style="width: 173px;height: auto;padding: 0px;padding-top: 0px;"><img class="img-fluid" src="assets/img/artiste/aodele.png" style="width: 173px;height: 134px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;margin-left: 0px;">
+                            <h4 class="card-title" style="font-size: 18px;text-align: center;margin-top: 6px;font-family: Poppins, sans-serif;letter-spacing: 2px;">Ayodele</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;">
+                    <div class="card" style="width: 173px;height: auto;background: rgba(0,0,0,0.01);color: rgb(49, 52, 55);">
+                        <div class="card-body text-center" style="width: 173px;height: auto;padding: 0px;padding-top: 0px;"><img class="img-fluid" src="assets/img/artiste/akoubajpg.png" style="width: 165px;height: 134px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;margin-left: 0px;">
+                            <h4 class="card-title" style="font-size: 18px;text-align: center;margin-top: 6px;letter-spacing: 2px;">Akouba</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;">
+                    <div class="card" style="width: 173px;height: auto;background: rgba(0,0,0,0.01);color: rgb(49, 52, 55);">
+                        <div class="card-body text-center" style="width: 173px;height: auto;padding: 0px;padding-top: 0px;"><img class="img-fluid" src="assets/img/artiste/zunon.png" style="width: 173px;height: 134px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;margin-left: 0px;">
+                            <h4 class="card-title" style="font-size: 18px;text-align: center;margin-top: 6px;letter-spacing: 2px;">Zunon</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;">
+                    <div class="card" style="width: 173px;height: auto;background: rgba(0,0,0,0.01);color: rgb(49, 52, 55);">
+                        <div class="card-body text-center" style="width: 173px;height: auto;padding: 0px;padding-top: 0px;"><img class="img-fluid" src="assets/img/artiste/Moses.png" style="width: 150px;height: 134px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;margin-left: 0px;">
+                            <h4 class="card-title" style="font-size: 18px;text-align: center;margin-top: 6px;letter-spacing: 2px;">Moses</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;">
+                    <div class="card" style="width: 173px;height: auto;background: rgba(0,0,0,0.01);color: rgb(49, 52, 55);">
+                        <div class="card-body text-center" style="width: 173px;height: auto;padding: 0px;padding-top: 0px;"><img class="img-fluid" src="assets/img/artiste/gataire.png" style="width: 173px;height: 134px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;margin-left: 0px;">
+                            <h4 class="card-title" style="font-size: 18px;text-align: center;margin-top: 6px;font-family: Poppins, sans-serif;letter-spacing: 2px;">Meiway</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center item" style="width: auto;height: auto;padding: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;">
+                    <div class="card" style="width: 173px;height: auto;background: rgba(0,0,0,0.01);color: rgb(49, 52, 55);">
+                        <div class="card-body text-center" style="width: 173px;height: auto;padding: 0px;padding-top: 0px;"><img class="img-fluid" src="assets/img/artiste/gohou.png" style="width: 173px;height: 134px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;margin-left: 0px;">
+                            <h4 class="card-title" style="font-size: 18px;text-align: center;margin-top: 6px;letter-spacing: 2px;font-family: Poppins, sans-serif;">Gohou</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><div id="myOverlay" class="overlay" style="height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 2;
+  top: 50px;
+  left: 0;
+  background-color: rgb(0,0,0);">
+  <span class="closebtn" onclick="closeSearch()" title="Close Overlay" style="position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;">×</span>
+  <div class="overlay-content" style="position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search" style="padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;">
+      <button type="submit" style=" float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+	<style scoped>
+		
+* {
+  box-sizing: border-box;
+}
+.openBtn:hover {
+  background: #bbb;
+}
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+.overlay button:hover {
+  background: #bbb;
+}
+	</style>
+</div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/Card-Carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/phone.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+</body>
+
+</html>
